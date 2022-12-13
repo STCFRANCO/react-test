@@ -1,0 +1,232 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin-top: -70px;
+    margin-bottom: 230px;
+    background-color: #42215f;
+    justify-content: center;
+}
+.nav ol {
+   
+    font-size: 30px;
+    color:#fff;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+.nav ul{ 
+    font-size: 20px;
+    color:#fff;
+    margin-top: -53px;
+    margin-left: 45%;
+}
+
+.nav input {
+    max-width: 150px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.nav button{
+    width: 50px;
+    height: 50px;
+    background-color:#21618C;
+    border-radius: 50%;
+    border-color: #fff;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.nav button:hover {
+        width: 50px;
+        height: 50px;
+        background-color: #0B2385;
+        border-radius: 50%;
+        border-color: #fff;
+        margin-top: 15px;
+        margin-left: 100px;
+}
+.bloque{
+    width: 100%;
+    height: 550px;
+    border-radius: 35px;
+    margin-left: -150px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+
+  .bloque h1{
+
+    font-size: 40px;
+    margin-left: 36%;
+    padding-top: 15px;
+    color:#fff;
+}
+
+.bloque p{
+
+        text-align: justify;
+        color:#fff;
+    }
+
+
+    .produto{
+      float: right;
+      width: 320px;
+      height: 350px;
+      background-color:#42215f ;
+      border-radius: 35px;
+      margin:30px 120px 0 -150px ;
+      box-shadow:
+    
+           inset 
+                 0 0  0 2px rgb(255,255,255),
+                 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    }
+ 
+    .produto img{
+      width: 220px;
+      height: 120px;
+      border-radius: 12px;
+      padding: 15px 0 0 90px;
+    }
+
+    .produto h1{
+      max-width: 290px;
+      font-size: 20px;
+      color: #fff;
+      font-family: Helvetica, sans-serif;
+     margin-right: 50px;
+     
+    }
+    .produto p{
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-left: 120px;
+    }
+
+    .produto button{
+      background-color: #08a05c;
+      color: #fff;
+      border-radius: 5px;
+      padding: 4.5px 8px;
+      margin-left: 40px;
+    }
+    .produto button:hover{
+      background-color: #e24f30;
+      color: #fff;
+      border-radius: 5px;
+      margin-left: 40px;
+    }
+    .produto a{
+      background-color: #c0711c;
+      color: #fff;
+      border-radius: 5px;
+      margin-left: 40px;
+    }
+    .produto a:hover{
+      background-color: #a114e3;
+      color: #fff;
+      border-radius: 5px;
+      margin-left: 40px;
+    }
+.caixa{
+        width: 400px;
+        height: 550px;
+        background-color:#42215f ;
+        border-radius: 35px;
+        margin-left: 350px;
+        margin-bottom: 30px;
+        margin-top: 60px;
+        box-shadow:
+      
+             inset 
+                   0 0  0 2px rgb(255,255,255),
+                   0.3em 0.3em 1em rgba(0,0,0,0.3);
+      }
+.caixa a{
+
+    font-size: 20px;
+    margin-left: 45%;
+    color:#fff;
+}
+.caixa button{
+    border-radius: 50%;
+    border-color: #fff;
+}
+.caixa h1{ 
+        color:#e24f30;
+        justify-content: center;
+        align-items: center;
+        margin-left: 75px;
+        
+    }
+
+
+.user{ 
+        
+        background-color:#fff;
+        border-radius: 50%;
+        border-color: #fff;
+        margin-left: 85%
+    }
+.user:hover {
+            background-color: #0B2385;
+            border-radius: 50%;
+            border-color: #fff;
+            margin-left: 85%
+    }
+
+ th{
+    font-size: 20px;
+    color:#e24f30;
+  }
+
+  td{
+    font-size: 14px;
+    color:#fff;
+  }
+  .back {
+    position: relative;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .Sd {
+    width: 980px;
+    height: 450px;
+    background-color: #42215f;
+    margin: 30px 30px 30px 160px;
+    border-radius: 40px;
+    padding: 20px;
+  
+    box-shadow: inset 0 0 0 2px #fff, 0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .Sd img {
+    float: left;
+    width: 260px;
+    height: 250px;
+    margin: 75px 140px 0px 90px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.9em 0.9em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  .footer {
+    position: static;
+    background-color: #42215f;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+  }
